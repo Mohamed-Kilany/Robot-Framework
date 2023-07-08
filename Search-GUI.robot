@@ -15,7 +15,7 @@ ${search_input}         name=q
 
 
 *** Test Cases ***
-Test Template for Search
+Test for Search
     [Tags]    [search]
     FOR    ${search_engine}    IN    @{search_engines}
         Open Browser    ${search_engine}    ${BROWSER}
